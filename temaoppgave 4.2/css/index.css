@@ -1,0 +1,164 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:  #efefef;
+    position: absolute;
+    text-align: left;
+    top: 5vh;
+    padding: 70px;
+}
+header{
+   position: fixed;
+   top: 0px;
+   left: 0px;
+   margin: 0px;
+   padding: 10px;
+   width: 100%;
+   background: rgb(55,84,63);
+        background: linear-gradient(90deg, rgba(55,84,63,1) 0%, rgba(135,161,100,1) 61%, rgba(252,176,69,1) 100%);
+   z-index: 10;
+   text-decoration-color: #efefef;
+}
+h1{
+    color: rgb(219, 132, 25);
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+h3{
+    color: #665544;
+    font-weight: 500;
+    border-top: 1px solid #44664d;
+    border-bottom: 1px solid #44664d;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+blockquote{
+    float: left;
+    width: 500px;
+    height: 200px;
+    font-size: 150%;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #665544;
+    margin: 0px 0px 10px 10px;
+    padding: 10px;
+    padding-left: 60px;
+    padding-top: 75px;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    padding-left: 1.5rem;
+}
+.menu li{
+    display:inline-block;
+    color: white;
+}
+.menu li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 3px;
+    transition: .3s ease
+}
+.menu li a:hover{
+    color: #44664d;
+    background-color: white;
+}
+.vanishing{
+    padding-left: 10vw;
+    height: 50vh;
+}
+.richard{
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    border-top: 1.5px solid rgba(252,176,69,1);
+    border-bottom: 1.5px solid rgba(252,176,69,1);
+}
+#intro{
+    padding-bottom: 200px;
+    text-align: center;
+    padding-top: 20vh;
+    background: url(../fotos/Photographer-Vickholius-Nugroho-Indonesia.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+#intro h1{
+    margin-left: 25vw;
+    margin-right: 25vw;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    color: #efefef;
+    border-top: 2px solid rgba(252,176,69,1);
+    border-bottom: 2px solid rgba(252,176,69,1);
+    border-left: 2px solid rgba(252,176,69,1);
+    border-right: 2px solid rgba(252,176,69,1);
+
+}
+#about{
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+}
+p{
+    color: #665544;
+}
+#shop{
+    padding-bottom: 200px;
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 20vh;
+    background: url(../fotos/419107e4155f64e8dcdeefb7a5c8e980.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+#shop p{
+    color: #efefef;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    width: 50vw;
+    margin: 10px auto 10px auto;
+}
+.buy{
+    padding: 80px;
+}
+.buy a{
+    color: rgb(219, 132, 25);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    transition: .3s ease;
+    background-color:white;
+    font-size: 125%;
+    position: inherit;
+}
+
+.buy a:hover{
+    color: white;
+    background-color: rgb(219, 132, 25);
+}
+#why{
+    padding-top: 15vh;
+    padding-bottom:10vh;
+}
+iframe{
+    padding-top: 10vh;
+    justify-content: center;
+}
